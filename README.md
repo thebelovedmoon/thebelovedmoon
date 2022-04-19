@@ -1,4 +1,6 @@
-### Hi there 👋
+# hewwo 🙌
+
+welcome to my profile (where this special repository comes from)! currently working on [#MamaNyoSquad](http://github.com/MamaNyoSquad/mamanyosquad.github.io), this is the home of my personal project and things under **thebelovedmoon and associates**.
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
