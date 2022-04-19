@@ -1,1 +1,3 @@
-ad
+User-agent: *
+Disallow: /framework
+Sitemap: https://thebelovedmoon.bookmark.com/sitemap.xml
