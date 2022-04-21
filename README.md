@@ -1,6 +1,12 @@
+_updated 21 apr 2022_
+
 # hewwo 🙌
 
 welcome to my profile (where this special repository comes from)! currently working on [#MamaNyoSquad](http://github.com/MamaNyoSquad/mamanyosquad.github.io), this is the home of my personal project and things under **thebelovedmoon and associates**.
+
+# what about La Luna 🌙?
+
+it's still there at this [url](http://thebelovedmoon.wixsite.com/moon), but is already outdated. I might improve the page starting this late week :D
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
