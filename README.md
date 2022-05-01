@@ -1,4 +1,4 @@
-_updated 21 apr 2022_
+_updated 1 mag 2022_
 
 # hewwo 🙌
 
@@ -6,7 +6,7 @@ welcome to my profile (where this special repository comes from)! currently work
 
 # what about La Luna 🌙?
 
-it's still there at this [url](http://thebelovedmoon.wixsite.com/moon), but is already outdated. I might improve the page starting this late week :D
+I've recently updated the site last few weeks, so here's the [new one](http://thebelovedmoon.wixsite.com/moon/en)
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
