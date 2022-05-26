@@ -2,14 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Windows 11 OOBE Screen</title>
-    <link rel="icon" href="favi-win11.png" type="image/x-icon">
+    <title>Mist Train Girls OOBE</title>
+    <link rel="icon" href="favi-mtg.png" type="image/x-icon">
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
       body {
         overflow: hidden;
         -ms-content-zooming: none;
         -ms-high-contrast-adjust: none;
-        background-color: #000000;
+        background-color: #7E073D;
       }
       @keyframes circle1Path {
         0% {
@@ -91,30 +92,67 @@
         position: absolute;
         animation: circle1Path 15s infinite, fadeCircleIn 1332ms ease-out;
         border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(12, 119, 255, 0.3) 15.62%, rgba(12, 119, 255, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(253, 239, 233, 0.3) 15.62%, rgba(253, 239, 233, 0) 100%);
       }
       .circle2 {
         position: absolute;
         animation: circle2Path 20s infinite, fadeCircleIn 1332ms ease-out;
         border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(0, 56, 255, 0.3) 15.62%, rgba(12, 119, 255, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(253, 239, 233, 0.3) 15.62%, rgba(253, 239, 233, 0) 100%);
       }
       .circle3 {
         position: absolute;
         animation: circle3Path 30s infinite, fadeCircleIn 1332ms ease-out;
         border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(65, 56, 210, 0.5) 15.62%, rgba(65, 56, 210, 0) 100%);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(253, 239, 233, 0.5) 15.62%, rgba(253, 239, 233, 0) 100%);
+      }
+      #ctr {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+        padding: 15px;
+        width: 50%;
+        height: 50%;
+      }
+      #mtg {
+        background-image: url(https://static.wikia.nocookie.net/mist-train-girls/images/a/a6/Mist_Train_Girls_Logo.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+      }
+      #charmonman {
+        font-family: "Charmonman", cursive;
+        font-weight: 400;
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
       }
     </style>
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://thebelovedmoon.github.io/oobe-screen/oobe-win11.html">
-    <meta name="twitter:title" content="Windows 11 OOBE Screen">
-    <meta name="twitter:description" content="Windows 11 OOBE Screen">
-    <meta name="twitter:image" content="https://thebelovedmoon.github.io/oobe-screen/prv-win11.png">
+    <meta name="twitter:site" content="https://thebelovedmoon.github.io/oobe-screen/oobe-mtg.html">
+    <meta name="twitter:title" content="Mist Train Girls OOBE">
+    <meta name="twitter:description" content="Based on the Windows 11 OOBE Screen">
+    <meta name="twitter:image" content="https://thebelovedmoon.github.io/oobe-screen/prv-mtg.png">
   </head>
   <body>
     <div class="circle1"></div>
     <div class="circle2"></div>
     <div class="circle3"></div>
+    <div id="ctr">
+      <div id="mtg"></div>
+      <div id="charmonman">Please wait for stream start</div>
+    </div>
   </body>
 </html>
