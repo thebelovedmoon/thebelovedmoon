@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: "Monotype Corsiva";
+  src: url(https://hiddenuser0.neocities.org/bebeciel835/font/MTCORSVA.TTF);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  color: #ffffff;
+  background: linear-gradient(to bottom right, #111111 25%, #595959 100%);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#nav {
+  background: linear-gradient(to bottom right, #111111 25%, #595959 100%);
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-size: 36px;
+  padding-top: 10px;
+  padding-bottom: 7.5px;
+  width: 100%;
+  font-family: "Charmonman", cursive;
+  box-shadow: 0 7.5px 10px #595959;
+}
+
+#beta {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  box-shadow: 7.5px 0 10px #595959;
+}
+
+#sumiyoi {
+  font-family: "Charmonman", cursive;
+}
+
+#thebelovedmoon, a {
+  font-family: "Monotype Corsiva";
+  color: #dcc6bb;
+  text-decoration: none;
+}
+
+/* parallax */
+.reiji-eva {
+  background-image: url(reiji_eva.png);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.reiji-eva-ovl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+}
+
+/* parallax */
+.bestpick {
+  background-image: url(sumiyoi_bestpick.png);
+  height: 75%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.head1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  text-align: center;
+}
+
+.head2 {
+  background-color: #000000;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 75px;
+}
+
+.head3 {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.ytembed {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.ytembed::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.ytembed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

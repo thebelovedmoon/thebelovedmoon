@@ -1,8 +1,13 @@
-_updated 31 mag 2022_
+_updated 5 giu 2022_
 
 # ciao 🙌
 
 this repository/profile will now be the new home of my web presence as I migrate from Bookmark following its boot-off as indicated in the [Open Letter](http://github.com/MamaNyoSquad/mamanyosquad.github.io/blob/deploy/README.md#An-Open-Letter-to-Bookmark).
+
+# current positions ⭐
+
+- G.Mgr (General Manager), [#MamaNyoSquad](http://github.com/MamaNyoSquad)
+- cofounder, [ReactSquad](http://mobile.twitter.com/ReactOSPH)
 
 # what's new with the web presence on this repo? ❓
 
@@ -12,9 +17,11 @@ currently, I'm reworking on the entire web presence to expand my knowledge in ef
 
 - [x] ⏳ custom wait page based on Windows 11 OOBE
   - [x] 🎞️ custom OOBE collection
-- [ ] 📄 **new** landing page (lp.html) for my personal stuff, not based on Bookmark anymore (prettyprinted and preserved)
-- [ ] 📄 **new** landing page for Sakura Sumiyoi
+- [ ] 📄 **new** landing page (lp.html) for my personal stuff, not based on Bookmark anymore (latter is prettyprinted and preserved)
+- [x] 📄 **new** landing page for Sakura Sumiyoi **(beta!!!)**
   - [ ] 📚 Sakura Curates Mangas (and initial thoughts)
+- [ ] **new** blog post
+  - [ ] using [oxalorg/sakura](http://github.com/oxalorg/sakura) as primary css
 
 ## miscellaneous improvements 💡
 
