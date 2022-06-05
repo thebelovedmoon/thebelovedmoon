@@ -1,4 +1,4 @@
-_updated 31 mag 2022_
+_updated 5 giu 2022_
 
 # ciao 🙌
 
@@ -18,7 +18,7 @@ currently, I'm reworking on the entire web presence to expand my knowledge in ef
 - [x] ⏳ custom wait page based on Windows 11 OOBE
   - [x] 🎞️ custom OOBE collection
 - [ ] 📄 **new** landing page (lp.html) for my personal stuff, not based on Bookmark anymore (latter is prettyprinted and preserved)
-- [ ] 📄 **new** landing page for Sakura Sumiyoi
+- [x] 📄 **new** landing page for Sakura Sumiyoi **(beta!!!)**
   - [ ] 📚 Sakura Curates Mangas (and initial thoughts)
 - [ ] **new** blog post
   - [ ] using [oxalorg/sakura](http://github.com/oxalorg/sakura) as primary css
