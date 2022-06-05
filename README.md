@@ -20,7 +20,8 @@ currently, I'm reworking on the entire web presence to expand my knowledge in ef
 - [ ] 📄 **new** landing page (lp.html) for my personal stuff, not based on Bookmark anymore (latter is prettyprinted and preserved)
 - [ ] 📄 **new** landing page for Sakura Sumiyoi
   - [ ] 📚 Sakura Curates Mangas (and initial thoughts)
-- [ ] 
+- [ ] **new** blog post
+  - [ ] using [oxalorg/sakura](http://github.com/oxalorg/sakura) as primary css
 
 ## miscellaneous improvements 💡
 
