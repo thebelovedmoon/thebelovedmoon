@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Sakura Sumiyoi">
+        <title>まほろば妖女奇譚、2020年8月12日〜2022年6月30日</title>
+        <link href="youjokitan.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
+        <style>
+            body {
+                background-image: url(mahoroba_bg.jpg);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            #sayonara {
+                background-image: url(mahoroba_sayonara.png);
+                background-size: contain;
+                background-position: center center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 100%;
+            }
+            #ctr {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                -o-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                width: 50%;
+                height: 50%;
+            }
+            @media screen and (max-width: 1000px) {
+                #ctr {
+                    width: 75%;
+                    height: 75%;
+                }
+            }
+        </style>
+        <meta name="theme-color" content="#fde6ff">
+        <meta name="msapplication-navbutton-color" content="#fde6ff">
+    </head>
+    <body>
+        <audio src="mahoroba_bgm.mp3" autoplay></audio>
+        <div id="ctr">
+            <div id="sayonara"></div>
+        </div>
+    </body>
+</html>
