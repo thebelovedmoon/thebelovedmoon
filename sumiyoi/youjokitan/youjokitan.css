@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "MahorobaB";
+    src: url(A-OTFMaruB.otf);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #dff2fd, #fde6ff);
+    font-family: "MahorobaB";
+    color: #000;
+}
