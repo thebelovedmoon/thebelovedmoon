@@ -3,6 +3,11 @@
     src: url(A-OTFMaruB.otf);
 }
 
+@font-face {
+    font-family: "MahorobaH";
+    src: url(A-OTFMaruH.otf);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -12,4 +17,16 @@ html, body {
 body {
     background: linear-gradient(to bottom, #dff2fd, #fde6ff);
     color: #000;
+}
+
+a {
+    color: #000;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
 }
