@@ -6,54 +6,15 @@
         <meta name="author" content="Sakura Sumiyoi">
         <title>さよなら、まほたん。</title>
         <link href="youjokitan.css" rel="stylesheet" type="text/css" media="all">
+        <link href="loading.css" rel="stylesheet" type="text/css" media="all">
         <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
         <style>
             body {
                 font-family: "MahorobaB";
+                cursor: wait;
             }
             p {
                 font-size: 20px;
-            }
-            #loader {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                -moz-transform: translateX(-50%) translateY(-50%);
-                -ms-transform: translateX(-50%) translateY(-50%);
-                -webkit-transform: translateX(-50%) translateY(-50%);
-                -o-transform: translateX(-50%) translateY(-50%);
-                transform: translateX(-50%) translateY(-50%);
-                width: 120px;
-                height: 120px;
-                margin: -76px 0 0 -76px;
-                border: 10px solid #ffffff00;
-                border-radius: 50%;
-                border-top: 10px solid #e9b1cd;
-                -moz-animation: spin 0.75s linear infinite;
-                -ms-animation: spin 0.75s linear infinite;
-                -webkit-animation: spin 0.75s linear infinite;
-                -o-animation: spin 0.75s linear infinite;
-                animation: spin 0.75s linear infinite;
-            }
-            @-moz-keyframes spin {
-                0% { -webkit-transform: rotate(0deg); }
-                100% { -webkit-transform: rotate(360deg); }
-            }
-            @-ms-keyframes spin {
-                0% { -webkit-transform: rotate(0deg); }
-                100% { -webkit-transform: rotate(360deg); }
-            }
-            @-webkit-keyframes spin {
-                0% { -webkit-transform: rotate(0deg); }
-                100% { -webkit-transform: rotate(360deg); }
-            }
-            @-o-keyframes spin {
-                0% { -webkit-transform: rotate(0deg); }
-                100% { -webkit-transform: rotate(360deg); }
-            }
-            @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
             }
             .ctr {
                 position: absolute;
@@ -165,7 +126,7 @@
                     padding: 10px;
                 }
                 .par {
-                    text-indent: 1cm;
+                    text-indent: 1.5cm;
                 }
             }
         </style>
@@ -174,7 +135,7 @@
         <meta name="theme-color" content="#fde6ff">
         <meta name="msapplication-navbutton-color" content="#fde6ff">
     </head>
-    <body onload="pageLoad()" style="margin: 0;">
+    <body id="bodyOut" onload="pageLoad()">
         <p id="sayonara" class="timer"></p>
         <div id="loader"></div>
         <div id="revealPage" class="ctr">
@@ -211,8 +172,11 @@
                         Sakura Sumiyoi / thebelovedmoon and associates
                     </p>
                 </div>
+                <br>
+                <p>
+                    We have unveiled the live countdown commemorating with the game's end of service. For more information, click <a href="countdown.html">here</a>.
+                </p>
             </div>
-        </div>
         </div>
     </body>
 </html>
