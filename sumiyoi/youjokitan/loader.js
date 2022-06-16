@@ -1,7 +1,7 @@
 var loading;
 
 function pageLoad() {
-    loading = setTimeout(showPage, 3000);
+    loading = setTimeout(showPage, 2500);
 }
 
 function showPage() {
