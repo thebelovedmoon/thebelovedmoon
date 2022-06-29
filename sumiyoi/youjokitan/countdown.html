@@ -4,16 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Sakura Sumiyoi">
-        <title>Countdown Information</title>
+        <title>See you tomorrow at 4:50am</title>
         <link href="youjokitan.css" rel="stylesheet" type="text/css" media="all">
         <link href="loading.css" rel="stylesheet" type="text/css" media="all">
         <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
         <style>
             body {
+                background-image: url(cya.png);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                cursor: wait;
+            }
+            body {
                 font-family: "MahorobaB";
                 cursor: wait;
                 overflow: hidden;
-                background: #000;
+                /** background: #000; **/
                 color: #fff;
             }
             iframe, .fframe {
@@ -167,10 +175,10 @@
     <body id="bodyOut" onload="pageLoad()">
         <p id="sayonara" class="timer"></p>
         <div class="fframe">
-            <iframe src="https://www.youtube-nocookie.com/embed/yxor7eQYIOI?controls=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube-nocookie.com/embed/pBaMhP2Z2bo?controls=0&autoplay=1&mute=1" frameborder="0" allowfullscreen></iframe> -->
         </div>
         <div id="loader"></div>
-        <div id="revealPage" class="ctr">
+        <!-- <div id="revealPage" class="ctr">
             <div class="scroll">
                 <h1>Countdown Information</h1>
                 <h3>as of 24 June 2022</h3>
@@ -184,6 +192,6 @@
                     If the stream doesn't play automatically or you are on a mobile device, you can watch the stream <a href="https://youtu.be/yxor7eQYIOI" target="_blank">here</a>.
                 </p>
             </div>
-        </div>
+        </div> -->
     </body>
 </html>
