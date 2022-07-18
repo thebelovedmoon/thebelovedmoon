@@ -9,7 +9,7 @@
         <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
         <style>
             body {
-                background-image: url(mahoroba_sayonara.jpg);
+                background: #000;
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -17,7 +17,7 @@
                 cursor: wait;
             }
             #sayonara {
-                background-image: url(mahoroba_sayonara.png);
+                background-image: url(mahoroba_sayonara_flat_landscape.svg);
                 background-size: contain;
                 background-position: center center;
                 background-repeat: no-repeat;
@@ -42,13 +42,18 @@
                     height: 75%;
                 }
             }
+            @media screen and (max-width: 625px) {
+                #sayonara {
+                    background-image: url(mahoroba_sayonara_flat_portrait.svg);
+                }
+            }
         </style>
         <script src="init.js"></script>
         <meta name="og:type" content="website">
-        <meta name="og:title" content="まほろば妖女奇譚、2020年8月12日〜2022年6月30日">
-        <meta name="og:image" content="https://thebelovedmoon.github.io/thebelovedmoon/sumiyoi/youjokitan/sayonara_preview.png">
+        <meta name="og:title" content="Mahoroba's Epilogue">
+        <meta name="og:image" content="https://thebelovedmoon.github.io/thebelovedmoon/sumiyoi/youjokitan/mahoroba_epilogue.png">
         <meta name="og:url" content="https://thebelovedmoon.github.io/thebelovedmoon/sumiyoi/youjokitan/">
-        <meta name="og:description" content="さよなら、まほたん。">
+        <meta name="og:description" content="まほろば妖女奇譚、2020年8月12日〜2022年6月30日">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:site" content="@SakuraSumiyoi">
         <meta name="theme-color" content="#FDE6FF">
