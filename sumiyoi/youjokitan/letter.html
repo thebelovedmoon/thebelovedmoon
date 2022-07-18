@@ -9,7 +9,11 @@
         <link rel="icon" href="mahoroba_favi.png" type="image/x-icon">
         <style>
             body {
+                font-family: "MahorobaB";
                 background: #000;
+                color: #fff;
+                text-align: center;
+                font-size: 20px;
             }
             #sayonara {
                 background-image: url(まほろば妖女奇譚、2020年8月12日〜2022年6月30日.jpg);
@@ -31,14 +35,57 @@
                 width: 95%;
                 height: 95%;
             }
+            #txt {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -ms-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                -o-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+                width: 95%;
+                max-height: 95%;
+                word-wrap: break-word;
+                -ms-word-wrap: break-word;
+                opacity: 0;
+            }
+            a {
+                color: #fff;
+            }
         </style>
         <meta name="theme-color" content="#FDE6FF">
         <meta name="msapplication-TileColor" content="#FDE6FF">
         <meta name="msapplication-navbutton-color" content="#FDE6FF">
         <meta name="apple-mobile-web-app-status-bar-style" content="#FDE6FF">
+        <script>
+            function ltr() {
+                if (confirm("Confirming this dialog will remove the letter. Please read the text messages as indicated thereof.") == true) {
+                    document.getElementById("ctr").remove();
+                    document.getElementById("txt").style.opacity = 1;
+                }
+            }
+        </script>
     </head>
     <body>
-        <div id="ctr">
+        <div id="txt">
+            <i style="font-size: 16px">Updated 18 July 2022</i>
+            <br><br>
+            If you are reading this, the game has officially shut down. To reiterate:
+            <br><br>
+            - 25 May 2022 marks the start of the 「End of Service」 event where paid items cannot be purchased. Moreover, Paid Sakura Stones cannot be used.
+            <br>
+            - 30 June 2022 is where Fusion Studio pulls the plug on the game, rendering it officially offline.
+            <br>
+            - From 30 June to 29 September 2022, they are starting to issue refunds on Paid Sakura Stones. Note that this might apply to some clients.
+            <br><br>
+            For more info on these notices, head over to their <a href="http://mahoroba-youjokitan.com" target="_blank">website (in Japanese)</a>.
+            <br>
+            Twitter: <a href="http://mobile.twitter.com/youjokitan" target="_blank">@youjokitan</a>
+            <br>
+            Email: <a href="mailto:mahoroba-youjokitan@mobile-game.dmm.com">mahoroba-youjokitan@mobile-game.dmm.com</a>
+        </div>
+        <div id="ctr" onclick="ltr()">
             <div id="sayonara"></div>
         </div>
     </body>
