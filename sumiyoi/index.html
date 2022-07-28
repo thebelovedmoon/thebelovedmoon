@@ -15,11 +15,51 @@
     <meta name="twitter:site" content="@SakuraSumiyoi">
     <meta name="theme-color" content="#595959">
     <meta name="msapplication-navbutton-color" content="#595959">
+    <style>
+      @font-face {
+        font-family: "MahorobaB";
+        src: url(youjokitan/A-OTFMaruB.otf);
+      }
+      .column {
+        float: left;
+        width: 50%;
+        text-align: center;
+      }
+      .row:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      @media screen and (max-width: 640px) {
+        .column {
+            width: 100%;
+        }
+      }
+      .youjokitan {
+        padding: 15px;
+        text-align: center;
+        background: url(youjokitan/mahoroba_sayonara.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: "MahorobaB";
+      }
+      .mahoroba {
+        font-family: "MahorobaB";
+        color: #fff;
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <div class="reiji-eva"></div>
     <div class="reiji-eva-ovl"></div>
-    <div class=head1>
+    <div class="youjokitan">
+      <p>
+        We've issued a letter last 30 June 2022 in reflection to the game's shutdown. Learn more <a class="mahoroba" href="youjokitan" target="_blank">here</a>.
+      </p>
+    </div>
+    <div class="head1">
       <h2>The new page!</h2>
       <p>
         We've decided to improve our site quite a bit to greet our visitors with a refreshed look!
@@ -32,15 +72,18 @@
       </p>
     </div>
     <div class="bestpick"></div>
-    <div class="head2">
-      <h2>Curated Mangas</h2>
-      <div class="ytembed">
-        <iframe src="https://www.youtube.com/embed/videoseries?list=PLF03i1Sr1R1_WKM0SSuiNNp8xA2Mjx7I5" frameborder="0" allowfullscreen></iframe>
+    <div class="head2 row">
+      <div class="column">
+        <h2>Curated Mangas</h2>
+        <div class="ytembed">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLF03i1Sr1R1_WKM0SSuiNNp8xA2Mjx7I5" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
-      <br>
-      <h2>Most-Loved</h2>
-      <div class="ytembed">
-        <iframe src="https://www.youtube.com/embed/videoseries?list=PLF03i1Sr1R1-KW04b4onrBrJmgi1pJ4Vq" frameborder="0" allowfullscreen></iframe>
+      <div class="column">
+        <h2>Most-Loved</h2>
+        <div class="ytembed">
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLF03i1Sr1R1-KW04b4onrBrJmgi1pJ4Vq" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
     <div class="head3">
