@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 32px;
+    color: #fff;
+    background-color: #fed962;
+    background-image: url("suzu_promo.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.trailer {
+    background-color: #00000080;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.suzuText {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+.glitch {
+    color: #ffffff80;
+}
+
+.timer {
+    background-color: #fed962;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+.suzuIntro .column {
+    height: 1000px;
+}
+
+.suzuProfile {
+    background-image: url("suzu_alvr.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.suzuDescBG {
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.suzuDesc {
+    background-color: #fed96280;
+    height: 90%;
+    width: 90%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.getinvolved {
+    background: linear-gradient(to bottom right, #000 25%, #fed962 100%);
+    padding: 25px;
+    text-align: center;
+}
