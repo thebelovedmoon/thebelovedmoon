@@ -159,7 +159,10 @@ footer {
     padding-bottom: 25px;
     text-align: center;
 }
-
+.embedTable {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 .iframeResponsive {
     width: 100%;
 }
