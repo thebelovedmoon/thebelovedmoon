@@ -1,173 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="suzu.css" rel="stylesheet" type="text/css" media="all">
-        <title>💛 Suzu Puyotori's Big Debut! 🐧</title>
-        <link rel="icon" href="https://abs-0.twimg.com/emoji/v2/72x72/1f49b.png" type="image/x-icon">
-        <meta name="og:type" content="website">
-        <meta name="og:title" content="💛 Suzu Puyotori's Big Debut! 🐧">
-        <meta name="og:image" content="https://thebelovedmoon.github.io/thebelovedmoon/suzupuyotori/suzuPromo_preview.png">
-        <meta name="og:url" content="https://thebelovedmoon.github.io/thebelovedmoon/suzupuyotori">
-        <meta name="og:description" content="26 Nov 8pm EST (UTC -5) 💛">
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@thebelovedmoon">
-        <meta name="theme-color" content="#fed962">
-        <meta name="msapplication-navbutton-color" content="#fed962">
-        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-        <script type="text/babel">
-            class TextScramble {
-                constructor(el) {
-                    this.el = el
-                    this.chars = '!<>-_\\/[]{}—=+*^?#________'
-                    this.update = this.update.bind(this)
-                }
-                setText(newText) {
-                    const oldText = this.el.innerText
-                    const length = Math.max(oldText.length, newText.length)
-                    const promise = new Promise((resolve) => this.resolve = resolve)
-                    this.queue = []
-                    for (let i = 0; i < length; i++) {
-                        const from = oldText[i] || ''
-                        const to = newText[i] || ''
-                        const start = Math.floor(Math.random() * 75)
-                        const end = start + Math.floor(Math.random() * 75)
-                        this.queue.push({ from, to, start, end })
-                    }
-                    cancelAnimationFrame(this.frameRequest)
-                    this.frame = 0
-                    this.update()
-                    return promise
-                }
-                update() {
-                    let output = ''
-                    let complete = 0
-                    for (let i = 0, n = this.queue.length; i < n; i++) {
-                        let { from, to, start, end, char } = this.queue[i]
-                        if (this.frame >= end) {
-                            complete++
-                            output += to
-                        } else if (this.frame >= start) {
-                            if (!char || Math.random() < 0.25) {
-                                char = this.randomChar()
-                                this.queue[i].char = char
-                            }
-                            output += `<span class="glitch">${char}</span>`
-                        } else {
-                            output += from
-                        }
-                    }
-                    this.el.innerHTML = output
-                    if (complete === this.queue.length) {
-                        this.resolve()
-                    } else {
-                        this.frameRequest = requestAnimationFrame(this.update)
-                        this.frame++
-                    }
-                }
-                randomChar() {
-                    return this.chars[Math.floor(Math.random() * this.chars.length)]
-                }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="suzu.css" rel="stylesheet" type="text/css" media="all" />
+    <title>💛 Suzu Puyotori's Big Debut! 🐧</title>
+    <link
+      rel="icon"
+      href="https://abs-0.twimg.com/emoji/v2/72x72/1f49b.png"
+      type="image/x-icon"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:title" content="💛 Suzu Puyotori's Big Debut! 🐧" />
+    <meta
+      name="og:image"
+      content="https://thebelovedmoon.github.io/thebelovedmoon/suzupuyotori/suzuPromo_preview.png"
+    />
+    <meta
+      name="og:url"
+      content="https://thebelovedmoon.github.io/thebelovedmoon/suzupuyotori"
+    />
+    <meta name="og:description" content="26 Nov 8pm EST (UTC -5) 💛" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@thebelovedmoon" />
+    <meta name="theme-color" content="#fed962" />
+    <meta name="msapplication-navbutton-color" content="#fed962" />
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      class TextScramble {
+        constructor(el) {
+          this.el = el;
+          this.chars = "!<>-_\\/[]{}—=+*^?#________";
+          this.update = this.update.bind(this);
+        }
+        setText(newText) {
+          const oldText = this.el.innerText;
+          const length = Math.max(oldText.length, newText.length);
+          const promise = new Promise((resolve) => (this.resolve = resolve));
+          this.queue = [];
+          for (let i = 0; i < length; i++) {
+            const from = oldText[i] || "";
+            const to = newText[i] || "";
+            const start = Math.floor(Math.random() * 75);
+            const end = start + Math.floor(Math.random() * 75);
+            this.queue.push({ from, to, start, end });
+          }
+          cancelAnimationFrame(this.frameRequest);
+          this.frame = 0;
+          this.update();
+          return promise;
+        }
+        update() {
+          let output = "";
+          let complete = 0;
+          for (let i = 0, n = this.queue.length; i < n; i++) {
+            let { from, to, start, end, char } = this.queue[i];
+            if (this.frame >= end) {
+              complete++;
+              output += to;
+            } else if (this.frame >= start) {
+              if (!char || Math.random() < 0.25) {
+                char = this.randomChar();
+                this.queue[i].char = char;
+              }
+              output += `<span class="glitch">${char}</span>`;
+            } else {
+              output += from;
             }
-            
-            const phrases = [
-                'A Pengu Boss has infiltrated the kingdom!',
-                '26 Nov 2022',
-                '8pm EST (UTC -5)',
-                'AuroraLiveVR'
-            ]
-            
-            const el = document.querySelector('.suzuText')
-            const fx = new TextScramble(el)
-            
-            let counter = 0
-            const next = () => {
-                fx.setText(phrases[counter]).then(() => {
-                    setTimeout(next, 1000)
-                })
-                counter = (counter + 1) % phrases.length
-            }
+          }
+          this.el.innerHTML = output;
+          if (complete === this.queue.length) {
+            this.resolve();
+          } else {
+            this.frameRequest = requestAnimationFrame(this.update);
+            this.frame++;
+          }
+        }
+        randomChar() {
+          return this.chars[Math.floor(Math.random() * this.chars.length)];
+        }
+      }
 
-            next()
+      const phrases = [
+        "A Pengu Boss has infiltrated the kingdom!",
+        "26 Nov 2022",
+        "8pm EST (UTC -5)",
+        "AuroraLiveVR",
+      ];
 
-            //adapted from https://codepen.io/soulwire/pen/mEMPrK
-        </script>
-        <script src="suzuTimer.js"></script>
-    </head>
-    <body>
-        <div class="remind">Information regarding this website may change over time. See footer for the recent page change.</div>
-        <div class="trailer">
-            <h1 class="suzuText"></h1>
-        </div>
-        <div class="timer">
-            <h1>Debuting in <span id="suzuTimer"></span> (UTC -5)</h1>
-        </div>
-        <div class="row suzuIntro">
-            <div class="column suzuProfile"></div>
-            <div class="column suzuDescBG">
-                <div class="suzuScrl">
-                    <div class="suzuDesc">
-                        <p>
-                            Lurking inside the castle for quite some time, Suzu has been known to be the troublemaker.
-                            But now, with her newfound responsibilities, will she be able to lead the community?
-                            <br><br>
-                            Join us as we welcome <b>AuroraLiveVR's Troublemaker aka Pengu of Sweetness</b> in all of
-                            her glory in one special debut day!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="getinvolved">
-            <h2>Get Involved</h2>
-            <div class="row">
-                <div class="column embedTable">
-                    <a class="twitter-timeline"
-                        data-lang="en"
-                        data-height="750"
-                        data-dnt="true"
-                        data-theme="dark"
-                        href="https://twitter.com/SuzuVT">Tweets by SuzuVT</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div class="column embedTable">
-                    <iframe class="iframeResponsive"
-                        src="https://player.twitch.tv/?channel=SuzuPuyotori&parent=thebelovedmoon.github.io"
-                        frameborder="0"
-                        allowfullscreen="false"
-                        scrolling="no"
-                        height="750"></iframe>
-                </div>
-            </div>
-            <div class="discord-div"><a href="https://discord.gg/suzuvt" target="_blank" class="discord-btn">Join the Discord Server</a></div>
-        </div>
-        <footer>
-            <div class="row">
-                <div class="column alvrTable">
-                    <div class="AuroraLiveVR"></div>
-                </div>
-                <div class="column alvrTable" style="text-align: left;">
-                    <p style="font-size: 20px;">
-                        Assets provided are courtesy of <b>AuroraLiveVR</b> through its commissioned artists.
-                        <br><br>
-                        Follow/contact their socials here:<br>
-                        <a class="alvrLinks" href="https://mobile.twitter.com/auroraLiveVR" target="_blank">Twitter</a> |
-                        <a class="alvrLinks" href="https://twitch.tv/AuroraLiveVR" target="_blank">Twitch</a> |
-                        <a class="alvrLinks" href="https://twitch.tv/team/fuwalive" target="_blank">Twitch Team</a> |
-                        <a class="alvrLinks" href="https://youtube.com/channel/UCnwtxLuyavLWETenWZUVKaQ" target="_blank">YouTube</a> |
-                        <a class="alvrLinks" href="https://space.bilibili.com/8523" target="_blank">Bilibili</a> |
-                        <a class="alvrLinks" href="https://discord.gg/bsMf52Egg5" target="_blank">Discord</a> |
-                        <a class="alvrLinks" href="mailto:jiguangshe@jgshe.com">Email</a>
-                    </p>
-                </div>
-            </div>
-            <p style="font-size: 20px;">
-                Made with 💜💚💗 by Aga-chuu (thebelovedmoon)!!<br>
-                <a class="alvrLinks" href="https://mobile.twitter.com/thebelovedmoon" target="_blank">Twitter</a> |
-                <a class="alvrLinks" href="mailto:jelsa14018@gmail.com">Email</a>
+      const el = document.querySelector(".suzuText");
+      const fx = new TextScramble(el);
+
+      let counter = 0;
+      const next = () => {
+        fx.setText(phrases[counter]).then(() => {
+          setTimeout(next, 1000);
+        });
+        counter = (counter + 1) % phrases.length;
+      };
+
+      next();
+
+      //adapted from https://codepen.io/soulwire/pen/mEMPrK
+    </script>
+    <script src="suzuTimer.js"></script>
+  </head>
+  <body>
+    <div class="remind">
+      Information regarding this website may change over time. See footer for
+      the recent page change.
+    </div>
+    <div class="trailer">
+      <h1 class="suzuText"></h1>
+    </div>
+    <div class="timer">
+      <h1>Debuting in <span id="suzuTimer"></span> (UTC -5)</h1>
+    </div>
+    <div class="row suzuIntro">
+      <div class="column suzuProfile"></div>
+      <div class="column suzuDescBG">
+        <div class="suzuScrl">
+          <div class="suzuDesc">
+            <p>
+              Lurking inside the castle for quite some time, Suzu has been known
+              to be the troublemaker. But now, with her newfound
+              responsibilities, will she be able to lead the community?
+              <br /><br />
+              Join us as we welcome
+              <b>AuroraLiveVR's Troublemaker aka Pengu of Sweetness</b> in all
+              of her glory in one special debut day!
             </p>
-            <p style="font-size: 18px;"><a class="alvrLinks" href="javascript:alert(document.lastModified)">When was this last modified?</a></p>
-        </footer>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="getinvolved">
+      <h2>Get Involved</h2>
+      <div class="row">
+        <div class="column embedTable">
+          <a
+            class="twitter-timeline"
+            data-lang="en"
+            data-height="750"
+            data-dnt="true"
+            data-theme="dark"
+            href="https://twitter.com/SuzuVT"
+            >Tweets by SuzuVT</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
+        <div class="column embedTable">
+          <iframe
+            class="iframeResponsive"
+            src="https://player.twitch.tv/?channel=SuzuPuyotori&parent=thebelovedmoon.github.io"
+            frameborder="0"
+            allowfullscreen="false"
+            scrolling="no"
+            height="750"
+          ></iframe>
+        </div>
+      </div>
+      <div class="discord-div">
+        <a href="https://discord.gg/suzuvt" target="_blank" class="discord-btn"
+          >Join the Discord Server</a
+        >
+      </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="column alvrTable">
+          <div class="AuroraLiveVR"></div>
+        </div>
+        <div class="column alvrTable" style="text-align: left">
+          <p style="font-size: 20px">
+            Assets provided are courtesy of <b>AuroraLiveVR</b> through its
+            commissioned artists. <br /><br />
+            Follow/contact their socials here:<br />
+            <a
+              class="alvrLinks"
+              href="https://mobile.twitter.com/auroraLiveVR"
+              target="_blank"
+              >Twitter</a
+            >
+            |
+            <a
+              class="alvrLinks"
+              href="https://twitch.tv/AuroraLiveVR"
+              target="_blank"
+              >Twitch</a
+            >
+            |
+            <a
+              class="alvrLinks"
+              href="https://twitch.tv/team/fuwalive"
+              target="_blank"
+              >Twitch Team</a
+            >
+            |
+            <a
+              class="alvrLinks"
+              href="https://youtube.com/channel/UCnwtxLuyavLWETenWZUVKaQ"
+              target="_blank"
+              >YouTube</a
+            >
+            |
+            <a
+              class="alvrLinks"
+              href="https://space.bilibili.com/8523"
+              target="_blank"
+              >Bilibili</a
+            >
+            |
+            <a
+              class="alvrLinks"
+              href="https://discord.gg/bsMf52Egg5"
+              target="_blank"
+              >Discord</a
+            >
+            |
+            <a class="alvrLinks" href="mailto:jiguangshe@jgshe.com">Email</a>
+          </p>
+        </div>
+      </div>
+      <p style="font-size: 20px">
+        Made with 💜💚💗 by Aga-chuu (thebelovedmoon)!!<br />
+        <a
+          class="alvrLinks"
+          href="https://mobile.twitter.com/thebelovedmoon"
+          target="_blank"
+          >Twitter</a
+        >
+        |
+        <a class="alvrLinks" href="mailto:jelsa14018@gmail.com">Email</a>
+      </p>
+      <p style="font-size: 18px">
+        <a class="alvrLinks" href="javascript:alert(document.lastModified)"
+          >When was this last modified?</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
