@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+@font-face {
+    font-family: "Discord";
+    src: url(https://assets.website-files.com/6257adef93867e50d84d30e2/62593142e1ae9ea28ebeab76_Ginto%20Nord%20Medium.ttf);
+}
+@font-face {
+    font-family: "thebelovedmoon";
+    src: url(https://hiddenuser0.neocities.org/bebeciel835/font/MTCORSVA.TTF);
+  }
+
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow-x: hidden;
     word-wrap: break-word;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -18,6 +31,43 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+footer {
+    font-family: "thebelovedmoon", cursive;
+    background-color: #000;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.alvrLinks:link {
+    color: #fff;
+    text-decoration: none;
+}
+.alvrLinks:hover {
+    color: #f0a9a9;
+    text-decoration: underline;
+}
+.alvrLinks:active {
+    color: #fed962;
+    text-decoration: underline;
+}
+.alvrLinks:visited {
+    color: #888;
+    text-decoration: none;
+}
+
+.remind {
+    background-color: #000;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .trailer {
@@ -52,6 +102,8 @@ body {
 .column {
     float: left;
     width: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
     text-align: center;
 }
 .row:after {
@@ -76,22 +128,85 @@ body {
 }
 .suzuDescBG {
     background-color: #000;
+    padding-top: 25px;
+    padding-bottom: 25px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 .suzuDesc {
     background-color: #fed96280;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     padding: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+.suzuScrl {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+.suzuScrl::-webkit-scrollbar {
+    display: none;
+}
+.suzuScrl {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 
 .getinvolved {
     background: linear-gradient(to bottom right, #000 25%, #fed962 100%);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.iframeResponsive {
+    width: 100%;
+}
+
+.discord-div {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.discord-btn {
+    font-family: "Discord", sans-serif;
+    background-color: #5865f2;
+    border: none;
     padding: 25px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.discord-btn:hover {
+    background-color: #eb459e;
+}
+
+.alvrTable {
+    height: 375px;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.AuroraLiveVR {
+    background-image: url("AuroraLiveVR.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
