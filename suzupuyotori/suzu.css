@@ -4,10 +4,6 @@
     font-family: "Discord";
     src: url(https://assets.website-files.com/6257adef93867e50d84d30e2/62593142e1ae9ea28ebeab76_Ginto%20Nord%20Medium.ttf);
 }
-@font-face {
-    font-family: "thebelovedmoon";
-    src: url(https://hiddenuser0.neocities.org/bebeciel835/font/MTCORSVA.TTF);
-  }
 
 html, body {
     margin: 0;
@@ -34,7 +30,6 @@ body {
 }
 
 footer {
-    font-family: "thebelovedmoon", cursive;
     background-color: #000;
     width: 100%;
     padding-top: 50px;
