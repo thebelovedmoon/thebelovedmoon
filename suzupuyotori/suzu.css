@@ -87,13 +87,61 @@ footer {
 
 .timer {
   background-color: #fed962;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
+  padding-bottom: 1px;
   text-align: center;
   color: #000;
 }
+
+.suzuTrailerContainer {
+  background-color: #fed962;
+  width: 100%;
+  padding: 50px;
+  padding-top: 1px;
+  text-align: center;
+  color: #000;
+}
+.suzuTrailer {
+  width: 100%;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+.mediaControls {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.mediaPlayPause {
+  background-color: #fed962;
+  border: none;
+  height: 75px;
+  width: 75px;
+  padding: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mediaPlayPause:hover {
+  background-color: #f0a9a9;
+}
+.material-icons {
+  vertical-align: middle;
+}
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
 .column {
   float: left;
@@ -165,6 +213,11 @@ footer {
 }
 .iframeResponsive {
   width: 100%;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .discord-div {
@@ -183,6 +236,10 @@ footer {
   display: inline-block;
   font-size: 24px;
   color: #fff;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
   border-radius: 15px;
   transition-duration: 0.5s;
   cursor: pointer;

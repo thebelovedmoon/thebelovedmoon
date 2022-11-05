@@ -72,7 +72,7 @@
       }
 
       const phrases = [
-        "A Pengu Boss has infiltrated the kingdom!",
+        "A troublemaker has entered the building!",
         "26 Nov 2022",
         "8pm EST (UTC -5)",
         "AuroraLiveVR",
@@ -94,17 +94,32 @@
       //adapted from https://codepen.io/soulwire/pen/mEMPrK
     </script>
     <script src="suzuTimer.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
     <div class="remind">
-      Information regarding this website may change over time. See footer for
-      the recent page change.
+      information regarding this website may change over time. see footer for the recent page change.
     </div>
     <div class="trailer">
       <h1 class="suzuText"></h1>
     </div>
     <div class="timer">
       <h1>Debuting in <span id="suzuTimer"></span> (UTC -5)</h1>
+    </div>
+    <div class="suzuTrailerContainer">
+      <h2>Watch the trailer below!</h2>
+      <video class="suzuTrailer" id="mediaPlayer">
+        <source src="suzuTrailer.mp4" type="video/mp4">
+      </video>
+      <div class="mediaControls">
+        <div class="mediaPlayPause" onclick="execPlay()">
+          <span class="material-icons md-36">play_arrow</span>
+        </div>
+        <div class="mediaPlayPause" onclick="execPause()">
+          <span class="material-icons md-36">pause</span>
+        </div>
+      </div>
+      <script src="suzuMediaControls.js"></script>
     </div>
     <div class="row suzuIntro">
       <div class="column suzuProfile"></div>
@@ -128,7 +143,7 @@
       <h2>Get Involved</h2>
       <div class="row">
         <div class="column embedTable">
-          <a class="twitter-timeline" data-lang="en" data-height="750" data-dnt="true" data-theme="dark" href="https://twitter.com/SuzuVT">Tweets by SuzuVT</a>
+          <a class="twitter-timeline iframeResponsive" data-lang="en" data-height="750" data-dnt="true" data-theme="dark" href="https://twitter.com/SuzuVT">Tweets by SuzuVT</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         <div class="column embedTable">
@@ -136,7 +151,7 @@
         </div>
       </div>
       <div class="discord-div">
-        <a href="https://discord.gg/EGeydWVWHY" target="_blank" class="discord-btn">Join the Discord Server</a>
+        <a href="https://discord.gg/suzuvt" target="_blank" class="discord-btn">Join the Discord Server</a>
       </div>
     </div>
     <footer>
@@ -161,12 +176,12 @@
         </div>
       </div>
       <p style="font-size: 20px">
-        Made with 💜💚💗 by Aga-chuu (thebelovedmoon)!!<br />
-        <a class="alvrLinks" href="https://mobile.twitter.com/thebelovedmoon" target="_blank">Twitter</a> |
-        <a class="alvrLinks" href="mailto:jelsa14018@gmail.com">Email</a>
+        made with 💜💚💗 by Aga-chuu (thebelovedmoon)!!<br />
+        <a class="alvrLinks" href="https://mobile.twitter.com/thebelovedmoon" target="_blank">twtr</a> |
+        <a class="alvrLinks" href="mailto:jelsa14018@gmail.com">email</a>
       </p>
       <p style="font-size: 18px">
-        <a class="alvrLinks" href="javascript:alert(document.lastModified)">When was this last modified?</a>
+        <a class="alvrLinks" href="javascript:alert(document.lastModified)">when was this last modified?</a>
       </p>
     </footer>
   </body>
