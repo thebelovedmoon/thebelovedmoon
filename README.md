@@ -1,4 +1,4 @@
-_updated 5 giu 2022_
+_updated 6 nov 2022_
 
 # ciao 🙌
 
@@ -33,6 +33,10 @@ currently, I'm reworking on the entire web presence to expand my knowledge in ef
 the website has been improved since 1 mag 2022! see the new rendition [here](http://thebelovedmoon.wixsite.com/moon/en).
 
 "La Luna 🌙" and "thebelovedmoon and associates" are correlated. see [latter](http://thebelovedmoon.wixsite.com/tbmassoc?lang=en) for my personal portfolio/CV.
+
+# license
+
+this repository is licensed under **CC-BY 4 INTL**. see [LICENSE](LICENSE) for details.
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
