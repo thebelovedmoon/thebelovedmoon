@@ -1,0 +1,11 @@
+.curatedate::before {
+  content: "31 December 2022 CET";
+}
+
+.recommend::before {
+  content: "451";
+}
+
+.mostloved::before {
+  content: "165";
+}
