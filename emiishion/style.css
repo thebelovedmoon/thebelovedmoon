@@ -128,6 +128,7 @@ footer {
   width: 100%;
   padding: 25px;
   background-color: #000;
+  text-align: center;
 }
 
 .dualfeed-col /* dual feed */ {
