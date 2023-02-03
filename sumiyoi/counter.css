@@ -1,11 +1,11 @@
 .curatedate::before {
-  content: "16 January 2023 CET";
+  content: "1 February 2023 CET";
 }
 
 .recommend::before {
-  content: "525";
+  content: "598";
 }
 
 .mostloved::before {
-  content: "204";
+  content: "246";
 }
