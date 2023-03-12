@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+/*
+  font-family: "Great Vibes", cursive;
+  font-family: "Satisfy", cursive;
+*/
 
 html, body {
   margin: 0;
@@ -13,16 +19,80 @@ html, body {
 }
 
 body {
-  background: linear-gradient(#f8fbf6 0%, #bedcaa 74%, #bedcaa 83%, #d4e8c6 100%);
-  font-family: 'Great Vibes', cursive;
-  color: #f0a9a9;
+  background-color: black;
+  font-family: "Satisfy", cursive;
+  color: white;
+}
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: x-large;
+  }
+}
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: xx-large;
+  }
 }
 
-.center {
+.text {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.bkOVL {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: absolute;
+  background-color: #00000080;
+}
+
+.imgBorders {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 25%;
+}
+.textOVL {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg1 {
+  /* image by pikisuperstar on Freepik */
+  background-image: url(backgrounds/6574814.jpg);
+}
+.bg2 {
+  /* photo by eberhard 🖐 grossgasteiger on Unsplash */
+  background-image: url(backgrounds/eberhard-grossgasteiger-nqYbkm8Wg_I-unsplash.jpg);
+}
+.bg3 {
+  /* photo by X. Wen on Unsplash */
+  background-image: url(backgrounds/x-wen-qjCHPZbeXCQ-unsplash.jpg);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #f0a9a940;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f0a9a9a0;
 }

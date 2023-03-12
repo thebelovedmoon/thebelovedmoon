@@ -3,26 +3,99 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../vtresmarias/vtm_styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="hinaoujo.css" rel="stylesheet" type="text/css" media="all">
-    <title>She's returning soon...</title>
-    <link rel="icon" href="../AuroraLiveVR-resource/KaleidoSekai_icon_gr.svg" type="image/x-icon">
-    <!--
+    <title>Hina Oujo/HinaSukii</title>
+    <link rel="icon" href="https://abs.twimg.com/emoji/v2/svg/1f338.svg" type="image/x-icon">
     <meta name="og:type" content="website">
-    <meta name="og:title" content="Hina Oujo">
-    <meta name="og:image" content="https://thebelovedmoon.github.io/thebelovedmoon/AuroraLiveVR-resource/KaleidoSekai_preview.png">
+    <meta name="og:title" content="Hina Oujo/HinaSukii">
+    <meta name="og:image" content="preview.jpg">
     <meta name="og:url" content="https://thebelovedmoon.github.io/thebelovedmoon/hinaoujo">
-    <meta name="og:description" content="Welcome to Hina's Kingdom!">
+    <meta name="og:description" content="Hina Oujo/HinaSukii [re]debuts this 18 Mar at 7pm EST!">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@thebelovedmoon">
-    -->
     <meta name="theme-color" content="#f0a9a9">
     <meta name="msapplication-TileColor" content="#f0a9a9">
     <meta name="msapplication-navbutton-color" content="#f0a9a9">
     <meta name="apple-mobile-web-app-status-bar-style" content="#f0a9a9">
+    <!-- custom script -->
+    <script src="../vtresmarias/vtm_scripts.js" type="text/javascript"></script>
+    <script src="multifunction.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="center">
-      <h1>She's returning soon...</h1>
+    <div class="vtmFullHead">
+      <div class="vtm-typeface">
+        <img class="vtmDisplayOVL" src="../vtresmarias/vtm_typeface.svg" alt="「VTresMarias - V三人のマリア - 」">
+      </div>
     </div>
+    <div class="imgBorders bg1"></div>
+    <div class="textOVL bg3">
+      <div class="text" style="background-color: #00000080;">
+        <h1>a new era for our precious Oujo-sama.</h1>
+        <p>
+          it's been a while since we got in touch with our precious Oujo-sama. since her debut as Suzu Puyotori
+          months ago, she's been committed to keeping in touch with her precious community -- even though it was
+          short-lived.
+        </p>
+        <p>
+          but she didn't give up hope.
+        </p>
+        <p>
+          as her presence is blooming like a pink lotus once again, we invite you to be a part of her special
+          return as a local nurse lurking on your Twitch -- but still has her royalty embedded in between!
+        </p>
+      </div>
+    </div>
+    <div style="position: relative;" onclick="unmutePlayer()">
+      <div id="unmute" class="bkOVL">
+        <p>Click anywhere to unmute</p>
+      </div>
+      <video class="vtmDisplayOVL" id="redebut" src="hinasukii_redebut.mp4" type="video/mp4" preload="auto"
+        autoplay muted loop style="z-index: 2;"></video>
+    </div>
+    <div class="textOVL bg2">
+      <div class="text" style="background-color: #f0a9a9a0;">
+        <h1>HinaSukii's [re]Debut</h1>
+        <p>
+          18 Mar 2023<br><br>
+          4pm PST<br>
+          6pm CST<br>
+          7pm EST<br><br><br>
+          19 Mar 2023<br><br>
+          9am JST<br>
+          12am GMT<br>
+          10am AEST<br><br><br>
+          Will you be there?
+        </p>
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <a rel="noopener noreferrer" href="https://twitch.tv/HinaSukii" target="_blank">
+            <img class="vtmLotus" src="icons/twitch.svg" alt="Twitch">
+          </a>
+          <a rel="noopener noreferrer" href="https://hinasukii.carrd.co" target="_blank">
+            <img class="vtmLotus" src="icons/website.svg" alt="Website">
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer class="vtm-footer">
+      <div class="vtm-typeface" style="width: auto; height: 175px;">
+        <div class="vtmFooter"></div>
+      </div>
+      <div class="vtm-lotus">
+        <a class="lotusURL" rel="noopener noreferrer" href="https://twitch.tv/AuraOstara" target="_blank">
+          <img class="vtmLotus" id="aura-hover" src="../vtresmarias/vtm_aura.svg" alt="Aura Ostara" onmouseover="aura_hover();" onmouseout="aura_hoverOut()">
+        </a>
+        <a class="lotusURL" rel="noopener noreferrer" href="https://twitch.tv/thebelovedmoon" target="_blank">
+          <img class="vtmLotus" id="aga-hover" src="../vtresmarias/vtm_aga.svg" alt="thebelovedmoon" onmouseover="aga_hover();" onmouseout="aga_hoverOut()">
+        </a>
+        <a class="lotusURL" rel="noopener noreferrer" href="https://twitch.tv/HinaSukii" target="_blank">
+          <img class="vtmLotus" id="hina-hover" src="../vtresmarias/vtm_hina.svg" alt="Hina Oujo" onmouseover="hina_hover();" onmouseout="hina_hoverOut()">
+        </a>
+      </div>
+      <br>
+      <p>
+        Site made by 💚🍃Aga-chuu💗🌸
+      </p>
+    </footer>
   </body>
 </html>
