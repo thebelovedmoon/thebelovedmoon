@@ -1,4 +1,4 @@
-.vtmFullHead {
+.vtmFullHead-back {
   background-image: url(../emiishion/AgaChuu_gradient.jpg);
   background-size: cover;
   background-position: center center;
@@ -6,18 +6,29 @@
   background-attachment: fixed;
   width: 100%;
   height: 100%;
+}
+.vtmFullHead-fore {
+  background-image: url(../vtresmarias/vtm_trioGraphic.png);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+}
+.vtmFullHead {
+  background-color: #00000080;
+  width: 100%;
+  height: 100%;
+  /*
+  padding-top: 275px;
+  padding-bottom: 275px;
+  */
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.vtm-typeface {
-  width: 37.5%;
-  height: 37.5%;
-}
-.vtmDisplayOVL {
-  width: 100%;
-  height: auto;
-  display: block;
 }
 
 .vtm-footer {
@@ -28,10 +39,18 @@
   background-attachment: fixed;
   width: 100%;
   padding: 50px;
-  padding-bottom: 25px;
   text-align: center;
 }
-.vtmFooter {
+.vtm-typeface {
+  width: 37.5%;
+  height: 37.5%;
+}
+.vtmDisplayOVL {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.vtmLogo {
   background-image: url(../vtresmarias/vtm_typeface.svg);
   background-size: contain;
   background-position: center center;

@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-  background-color: black;
+  background-color: #f0a9a9;
   font-family: "Satisfy", cursive;
   color: white;
 }
@@ -58,6 +58,11 @@ body {
   position: absolute;
   background-color: #00000080;
 }
+.redebutPlayer {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .imgBorders {
   background-attachment: fixed;
@@ -90,9 +95,9 @@ body {
   width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f0a9a940;
+  background: #ffffff80;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #f0a9a9a0;
+  background: #ffffffc0;
 }

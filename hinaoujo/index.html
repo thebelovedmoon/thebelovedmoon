@@ -23,9 +23,11 @@
     <script src="multifunction.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="vtmFullHead">
-      <div class="vtm-typeface">
-        <img class="vtmDisplayOVL" src="../vtresmarias/vtm_typeface.svg" alt="「VTresMarias - V三人のマリア - 」">
+    <div class="vtmFullHead-back">
+      <div class="vtmFullHead-fore" style="background-image: url(../vtresmarias/vtm_trioGraphic.png);">
+        <div class="vtmFullHead">
+          <img class="vtmDisplayOVL" src="../vtresmarias/vtm_typeface.svg" alt="「VTresMarias - V三人のマリア - 」">
+        </div>
       </div>
     </div>
     <div class="imgBorders bg1"></div>
@@ -48,14 +50,18 @@
     </div>
     <div style="position: relative;" onclick="unmutePlayer()">
       <div id="unmute" class="bkOVL">
-        <p>Click anywhere to unmute</p>
+        <p>click anywhere to unmute</p>
       </div>
-      <video class="vtmDisplayOVL" id="redebut" src="hinasukii_redebut.mp4" type="video/mp4" preload="auto"
+      <video class="redebutPlayer" id="redebut" src="hinasukii_redebut.mp4" type="video/mp4" preload="auto"
         autoplay muted loop style="z-index: 2;"></video>
     </div>
     <div class="textOVL bg2">
       <div class="text" style="background-color: #f0a9a9a0;">
         <h1>HinaSukii's [re]Debut</h1>
+        <em>
+          schedule will be updated in the latest commits to conform with daylight savings in the US.<br>
+          these apply to non-daylight times.
+        </em>
         <p>
           18 Mar 2023<br><br>
           4pm PST<br>
@@ -65,7 +71,7 @@
           9am JST<br>
           12am GMT<br>
           10am AEST<br><br><br>
-          Will you be there?
+          will you be there?
         </p>
         <div style="display: flex; justify-content: center; align-items: center;">
           <a rel="noopener noreferrer" href="https://twitch.tv/HinaSukii" target="_blank">
@@ -79,7 +85,7 @@
     </div>
     <footer class="vtm-footer">
       <div class="vtm-typeface" style="width: auto; height: 175px;">
-        <div class="vtmFooter"></div>
+        <div class="vtmLogo"></div>
       </div>
       <div class="vtm-lotus">
         <a class="lotusURL" rel="noopener noreferrer" href="https://twitch.tv/AuraOstara" target="_blank">
@@ -94,8 +100,12 @@
       </div>
       <br>
       <p>
-        Site made by 💚🍃Aga-chuu💗🌸
+        site made by 💚🍃Aga-chuu💗🌸
       </p>
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <a rel="noopener noreferrer" href="https://github.com/thebelovedmoon/thebelovedmoon" target="_blank">
+          <img class="vtmLotus" src="https://mamanyosquad.github.io/media/svg/github.svg" alt="Twitch">
+        </a>
     </footer>
   </body>
 </html>
