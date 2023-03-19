@@ -31,6 +31,35 @@ var x = setInterval(function() {
 
 ///////////////////////////////////////////////
 
+//code from https://stackoverflow.com/questions/50109105/call-function-only-once-when-element-hits-top-of-the-window
+//will work on it later
+
+/*
+let getToTop = $("#getToTop").offset().top;
+
+let onlyOnce = 1;
+$(window).scroll(function() {
+  var scrolledToTop = $(window).scrollTop();
+  if (scrolledToTop > getToTop) {
+    if (onlyOnce === 1) {
+      document.getElementById("disappearHead").remove();
+    }
+  }
+});
+*/
+
+/*
+const getToTop = document.getElementById("getToTop").offsetTop;
+
+window.scroll(function() {
+  if (getToTop === 0) {
+    document.getElementById("disappearHead").remove();
+  }
+});
+*/
+
+///////////////////////////////////////////////
+
 //code improvised from https://benfrain.com/automatically-play-and-pause-video-as-it-enters-and-leaves-the-viewport-screen
 
 function playPause() {
