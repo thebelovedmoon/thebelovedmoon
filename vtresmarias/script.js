@@ -5,6 +5,26 @@ function lotusLoading() {
   }, 5000);
 }
 
+//code from https://css-tricks.com/scroll-triggered-animation-vanilla-javascript
+function scrollTrigger(selector) {
+  let els = document.querySelectorAll(selector)
+  els = Array.from(els)
+  els.forEach(el => {
+    addObserver(el)
+  });
+}
+function addObserver(el) {
+  let observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) {
+        entry.target.classList.add('active')
+        observer.unobserve(entry.target)
+      }
+    });
+  });
+  observer.observe(el)
+}
+
 //code from https://linuxhint.com/change-image-on-hover-in-javascript
 function aura_hover() {
   document.getElementById("aura-hover").src = "../vtresmarias/vtm_aura_hover.svg";
