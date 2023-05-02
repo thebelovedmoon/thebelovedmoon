@@ -13,6 +13,10 @@ html, body {
   box-sizing: border-box;
 }
 
+html {
+  background-color: #793a80;
+}
+
 #loading {
   z-index: 2;
   width: 100%;
@@ -23,6 +27,7 @@ html, body {
   align-items: center;
   text-align: center;
   background-color: #793a80;
+  background-image: url(../vtresmarias/vtm_purple.jpg);
   transition: height 1.25s;
 }
 .vtmLotusLoad {

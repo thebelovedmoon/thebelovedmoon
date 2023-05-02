@@ -6,8 +6,12 @@
   --Aura: #66a898;
   --Aga: #793a80;
   --Hina: #f0a9a9;
-  /* graphics */
-  --vtmBack: url(../emiishion/AgaChuu_gradient.jpg);
+  /* backgrounds */
+  --vtmAuraBack: url(vtm_green.jpg);
+  --vtmAgaBack: url(vtm_purple.jpg);
+  --vtmHinaBack: url(vtm_pink.jpg);
+  /* graphics and misc */
+  --vtmBack: url(vtm_BG.jpg);
   --vtmFore: url(vtm_trioGraphic.png);
   --vtmTypeface: url(vtm_typeface.svg);
   --vtmFontface: "Satisfy", cursive;
@@ -62,6 +66,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: var(--Aura);
+  background-image: var(--vtmBack);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
