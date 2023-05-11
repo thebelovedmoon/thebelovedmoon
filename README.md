@@ -36,7 +36,7 @@ the website has been improved since 1 mag 2022! see the new rendition [here](htt
 
 # license
 
-this repository is licensed under **CC-BY 4 INTL**. see [LICENSE](LICENSE) for details.
+this repository is licensed under **MIT**. see [LICENSE](LICENSE) for details.
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
