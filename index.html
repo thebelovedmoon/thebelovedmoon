@@ -1,133 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="author" content="thebelovedmoon">
-    <title>Loading site...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>we're moving!!</title>
     <link rel="icon" href="assets/public/images/favicon.png" type="image/x-icon">
     <style>
-      body {
-        overflow: hidden;
-        -ms-content-zooming: none;
-        -ms-high-contrast-adjust: none;
+      /* insert css args here */
+      @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+      html {
         background-color: #3d374c;
+        color: #dcc6bb;
       }
-      @keyframes circle1Path {
-        0% {
-          top: 50vh;
-          left: 50vw;
-          width: 5vw;
-          height: 5vw;
-          opacity: 0.5;
-        }
-        50% {
-          top: 0vh;
-          left: 45vw;
-          width: 60vw;
-          height: 60vw;
-          opacity: 1;
-        }
-        100% {
-          top: 50vh;
-          left: 50vw;
-          width: 5vw;
-          height: 5vw;
-          opacity: 0.5;
-        }
+      body {
+        font-family: "Hachi Maru Pop", cursive;
+        text-align: center;
       }
-      @keyframes circle2Path {
-        0% {
-          top: 40vh;
-          left: 45vw;
-          width: 15vw;
-          height: 15vw;
-        }
-        50% {
-          top: 37vh;
-          left: -10vw;
-          width: 80vw;
-          height: 80vw;
-        }
-        100% {
-          top: 40vh;
-          left: 45vw;
-          width: 15vw;
-          height: 15vw;
-        }
-      }
-      @keyframes circle3Path {
-        0% {
-          top: 30vh;
-          left: 30vw;
-          width: 25vw;
-          height: 25vw;
-        }
-        50% {
-          top: -50vh;
-          left: -20vw;
-          width: 120vw;
-          height: 120vw;
-        }
-        100% {
-          top: 30vh;
-          left: 30vw;
-          width: 25vw;
-          height: 25vw;
-        }
-      }
-      @keyframes fadeIn {
-        0%{
-          opacity: 0;
-        }
-      }
-      @keyframes fadeCircleIn {
-        0%{
-          opacity: 0;
-        }
-        100%{
-          opacity: 1;
-        }
-      }
-      .circle1 {
+      .txt {
         position: absolute;
-        animation: circle1Path 15s infinite, fadeCircleIn 1332ms ease-out;
-        border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(220, 198, 187, 0.3) 15.62%, rgba(220, 198, 187, 0) 100%);
+        top: 50%;
+        left: 50%;
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        width: 50%;
+        max-height: 50%;
       }
-      .circle2 {
-        position: absolute;
-        animation: circle2Path 20s infinite, fadeCircleIn 1332ms ease-out;
-        border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(220, 198, 187, 0.3) 15.62%, rgba(220, 198, 187, 0) 100%);
-      }
-      .circle3 {
-        position: absolute;
-        animation: circle3Path 30s infinite, fadeCircleIn 1332ms ease-out;
-        border-radius: 100vw;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(220, 198, 187, 0.5) 15.62%, rgba(220, 198, 187, 0) 100%);
+      code {
+        background-color: #ffffff40;
+        padding: 4.75px;
+        -moz-border-radius: 4.75px;
+        -ms-border-radius: 4.75px;
+        -webkit-border-radius: 4.75px;
+        -o-border-radius: 4.75px;
+        border-radius: 4.75px;
+        font-family: 'IBM Plex Mono', monospace;
       }
     </style>
-    <script>
-      function Redirect() {
-        window.location = "lp.html";
-      }
-      setTimeout('Redirect()', 60000);
-    </script>
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="thebelovedmoon">
-    <meta name="og:image" content="https://thebelovedmoon.github.io/thebelovedmoon/assets/public/images/MOTHERcry.png">
-    <meta name="og:url" content="https://thebelovedmoon.github.io/thebelovedmoon">
-    <meta name="og:description" content="new oobe!">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@thebelovedmoon">
-    <meta name="theme-color" content="#3d374c">
-    <meta name="msapplication-navbutton-color" content="#3d374c">
+    <meta name="theme-color" content="#f0a9a9">
+    <meta name="msapplication-TileColor" content="#f0a9a9">
+    <meta name="msapplication-navbutton-color" content="#f0a9a9">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#793a80">
   </head>
   <body>
-    <div class="circles">
-      <div class="circle1"></div>
-      <div class="circle2"></div>
-      <div class="circle3"></div>
+    <div class="txt">
+      <div>
+        <h1>we're moving!!</h1>
+        <p>
+          some of our pages are now moved over to our new home at <b>thebelovedmoon.github.io</b>.
+          if you want to see it, remove <code>thebelovedmoon/</code> after the domain name.
+        </p>
+        <p>
+          hope to see you there!!
+        </p>
+      </div>
     </div>
   </body>
 </html>
