@@ -1,4 +1,6 @@
-_updated 11 mag 2023_
+**we're moving!! some of our major pages has been moved to our root `github.io` repo, [`thebelovedmoon.github.io`](https://github.com/thebelovedmoon/thebelovedmoon.github.io)!! as such, this README has been updated to conform the migration of our pages.**
+
+_updated 13 giu 2023_
 
 # ciao 🙌
 
@@ -18,9 +20,9 @@ currently, I'm reworking on the entire web presence to expand my knowledge in ef
 - [x] ⏳ custom wait page based on Windows 11 OOBE!! [click here](https://thebelovedmoon.github.io/thebelovedmoon/oobe-screen)
   - [x] 🎞️ custom OOBE collection
 - [ ] 📄 **new** landing page `lp.html` for my personal stuff, not based on Bookmark anymore (latter is prettyprinted and preserved)
-- [x] 📄 **new** landing page for Sakura Sumiyoi **(beta!!!)** [click here](https://thebelovedmoon.github.io/thebelovedmoon/sumiyoi)
+- [x] 📄 **new** landing page for Sakura Sumiyoi **(beta!!!)** [click here](https://thebelovedmoon.github.io/sumiyoi)
   - [ ] 📚 Sakura Curates Mangas (and initial thoughts)
-- [x] **new** blog post!! [click here](https://thebelovedmoon.github.io/thebelovedmoon/blog)
+- [x] **new** blog post!! [click here](https://thebelovedmoon.github.io/blog)
   - [x] using [oxalorg/sakura](https://github.com/oxalorg/sakura) as primary css
 
 ## miscellaneous improvements 💡
