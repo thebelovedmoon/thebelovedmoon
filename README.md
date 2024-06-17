@@ -1,44 +1,65 @@
-**we're moving!! some of our major pages has been moved to our root `github.io` repo, [`thebelovedmoon.github.io`](https://github.com/thebelovedmoon/thebelovedmoon.github.io)!! as such, this README has been updated to conform the migration of our pages.**
+_updated <span id="docMod">fetching date..</span>_
 
-_updated 13 giu 2023_
+# thebelovedmoon, the First Maria🍃
 
-# ciao 🙌
+**your precious 💚🍃Aga-chuu!!💗🌸 「VTresMarias - V三人のマリア - 」**
 
-this repository/profile will now be the new home of my web presence as I migrate from Bookmark following its boot-off as indicated in the [Open Letter](https://github.com/MamaNyoSquad/mamanyosquad.github.io/blob/deploy/README.md#An-Open-Letter-to-Bookmark).
+welcome to my personal profile!! here; you can find out the necessary info about me and my ventures!! you can also find out which orgs I associate (and maintain), and other efforts through forks!!
 
-# current positions ⭐
+<div style="text-align: center">
+  <img src="md_files/agaLove.png" alt="agaLove" width="56px">
+  <img src="md_files/agaPat.png" alt="agaPat" width="56px">
+</div>
 
-- G.Mgr (General Manager), [#MamaNyoSquad](https://github.com/MamaNyoSquad)
-- cofounder, [ReactSquad](https://mobile.twitter.com/ReactOSPH)
+## Table of Contents
 
-# what's new with the web presence on this repo? ❓
+- [current affiliations](#current-affiliations)
+- [as a VTuber..](#as-a-vtuber)
+- [「VTresMarias - V三人のマリア - 」](#vtresmarias---v三人のマリア---)
 
-currently, I'm reworking on the entire web presence to expand my knowledge in effective website building using pure HTML skills. with the help of [hiddenuser0](https://mobile.twitter.com/hiddenuser0), I'm hosting the modifications over his neocities repo. the landing page for [thebelovedmoon_test](https://hiddenuser0.neocities.org/thebelovedmoon_test) is automatically updated under my/his discretion.
+<hr style="border-top: 4px solid gray">
 
-## planned improvements 🤔
+# current affiliations
 
-- [x] ⏳ custom wait page based on Windows 11 OOBE!! [click here](https://thebelovedmoon.github.io/thebelovedmoon/oobe-screen)
-  - [x] 🎞️ custom OOBE collection
-- [ ] 📄 **new** landing page `lp.html` for my personal stuff, not based on Bookmark anymore (latter is prettyprinted and preserved)
-- [x] 📄 **new** landing page for Sakura Sumiyoi **(beta!!!)** [click here](https://thebelovedmoon.github.io/sumiyoi)
-  - [ ] 📚 Sakura Curates Mangas (and initial thoughts)
-- [x] **new** blog post!! [click here](https://thebelovedmoon.github.io/blog)
-  - [x] using [oxalorg/sakura](https://github.com/oxalorg/sakura) as primary css
+TBA
 
-## miscellaneous improvements 💡
+# as a VTuber..
 
-- [ ] 🖥️ custom CSS improvements
-- [ ] 🎞️ animated overlay
+TBA
 
-# La Luna 🌙
+# 「VTresMarias - V三人のマリア - 」
 
-the website has been improved since 1 mag 2022! see the new rendition [here](https://thebelovedmoon.wixsite.com/moon/en).
+_info from the official website_
 
-"La Luna 🌙" and "thebelovedmoon and associates" are correlated. see [latter](https://thebelovedmoon.wixsite.com/tbmassoc?lang=en) for my personal portfolio/CV.
+「VTresMarias - V三人のマリア - 」 was provisioned through a fanart from thebelovedmoon (the First Maria🍃) last 27 Dec 2022 as his way of appreciating his fellow VTubers -- Aura Ostara (the Second Maria🪷) and Hina Oujo (the Third Maria🌸).
 
-# license
+this VTuber Collective has become the basis for the continuous support of the Marias throughout their VTubing career -- even beyond their hiatus.
 
-this repository is licensed under **MIT**. see [LICENSE](LICENSE) for details.
+in terms of [lore](https://vtresmarias.github.io/story), the Marias' story is culminated -- with the majority being the First Maria🍃's as it encompasses on how she was able to overcome the challenges to complete her underlying mission.
+
+🍃🪷🌸
+
+## our Core Values
+
+### 「Universality without Borders」
+
+our primary aim is to be open to all walks of life, whether it would be behind the screen or in front of a real person.
+
+we do not permit any forms of negativity within our community and beyond. we strive to protect and support each other through trying times and not bring them down.
+
+### 「Acceptance without Comprehension」
+
+accompanying our aim for universality is our advocacy to accept everyone's flaws. our community strives on making sure everyone is widely accepted regardless of their nature.
+
+but in order to maintain that acceptance, we have put additional measures to further strengthen our bond and to stay true to our promise of uniting the communities together as one.
+
+<!-- scriptsheet -->
+
+<script src="md_files/docUpd.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  docMod();
+</script>
 
 <!--
 **thebelovedmoon/thebelovedmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
