@@ -47,7 +47,7 @@
 <br>
 <br>
 
-<div style="text-align: center;">
+<div align="center">
 
   ©2022 「VTresMarias - V三人のマリア - 」
   <br>
