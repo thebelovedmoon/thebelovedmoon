@@ -1,14 +1,10 @@
-![Aga-chuu (阿賀忠). web builder. vtuber. the First Maria🍃.](md_files/header.png)
-
 <div align="center">
+
+  ![Aga-chuu (阿賀忠). web builder. vtuber. the First Maria🍃.](md_files/header.png)
 
   _**your precious 💚🍃Aga-chuu💗🌸!! 「VTresMarias - V三人のマリア - 」**_
 
-</div>
-
-<br>
-
-<div align="center">
+  <br>
 
   ## current webprojects
 
@@ -26,12 +22,6 @@
 
   [![177013/177013.github.io](https://svg.bookmark.style/api?url=https://github.com/177013/177013.github.io&mode=light&style=horizontal)](https://github.com/177013/177013.github.io)
 
-</div>
-
-<br>
-
-<div align="center">
-
   ## socials
 
   [![website](https://img.shields.io/website?color=793a80&style=flat-square&up_message=thebelovedmoon.github.io&url=https%3A%2F%2Fthebelovedmoon.github.io)](https://thebelovedmoon.github.io)
@@ -46,12 +36,8 @@
   <br>
   [![reddit](https://img.shields.io/reddit/user-karma/combined/thebelovedmoon)](https://reddit.com/user/thebelovedmoon)
 
-</div>
-
-<br>
-<br>
-
-<div align="center">
+  <br>
+  <br>
 
   ©2022 「VTresMarias - V三人のマリア - 」
   <br>
